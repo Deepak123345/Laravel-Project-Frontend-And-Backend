@@ -1,0 +1,75 @@
+Pehle, jo <div>, <section>, <h2>, <img> jaise tags hain, woh HTML tags hain. Yeh page ka structure banate hain.
+
+<section>: Aapke page ka ek bada hissa (section) define karta hai.
+
+<div>: Ek "division" ya box hai jiske andar aap doosra content rakhte hain. Yeh content ko group karne ke kaam aata hai.
+
+<h2>: Ek Heading (badi title) hai. Yahan "Our Featured Collections" likha hai.
+
+<img>: Ek image (photo) dikhata hai.
+
+<h5>: Ek choti heading (sub-title) hai. Jaise "Luxury Sofas".
+
+<p>: Ek paragraph (text) hai.
+
+<a>: Ek link (hyperlink) hai, jisse yahan button banaya gaya hai.
+
+: Yeh ek comment hai. Yeh code mein run nahi hota, sirf developer ke padhne ke liye hota hai (jaise ).
+
+2. Classes (Design & Layout)
+Jo aap class="..." ke andar likha dekh rahe hain, woh CSS classes hain. Yeh HTML elements ko design (style) dene ke kaam aati hain. Yeh classes zyadatar Bootstrap framework se aa rahi hain, jo ek pehle se bana-banaya design system hai.
+
+Layout Classes (Page ko set karna):
+class="container": Yeh content ko page ke beech mein rakhta hai aur dono side thoda margin de deta hai, taaki content poori screen par na phaile.
+
+class="row": Yeh ek horizontal line (row) banata hai. Iske andar hum columns (jaise col-md-4) rakhte hain.
+
+class="col-md-4": Yeh sabse important hai. Bootstrap screen ko 12 hisson (columns) mein baant'ta hai.
+
+col ka matlab hai Column.
+
+md ka matlab hai Medium screen (jaise tablet ya small laptop).
+
+4 ka matlab hai ki yeh column 12 mein se 4 hisse ki jagah lega.
+
+Isliye, ek row mein aap 3 aise column (4 + 4 + 4 = 12) daal sakte hain, jaisa ki aapke code mein kiya gaya hai (Luxury Sofas, Dining Sets, Bedroom Essentials).
+
+class="mb-4": Iska matlab hai "margin-bottom 4". Yeh element ke neeche thodi si jagah (margin) chhod deta hai.
+
+Card Classes (Box ka design):
+Aapke code mein 3 "Cards" hain. Card ek box hota hai jismein image, title, aur text hota hai.
+
+class="card": Yeh div ko ek card jaisa style deta hai.
+
+class="shadow-sm": Yeh card par halki si shadow (parchhai) daalta hai (sm = small shadow).
+
+class="card-img-top": Yeh image ko card ke bilkul upar (top) par set karta hai.
+
+class="card-body": Yeh card ke content (text, title) ke liye padding (andar se space) deta hai.
+
+class="card-title": Yeh text ko title (heading) jaisa style deta hai.
+
+class="card-text": Yeh text ko paragraph jaisa style deta hai.
+
+Button Classes (Link ka design):
+class="btn": Yeh <a> link ko ek button jaisa bana deta hai.
+
+class="btn-sm": Yeh button ko small size ka banata hai.
+
+class="btn-outline-secondary": Yeh button ko outline wala banata hai (background transparent aur border gray secondary color ka).
+
+3. Blade Code (Laravel)
+@include('Head and foot.footer'): Yeh HTML nahi hai, yeh Laravel Blade ka syntax hai. Iska matlab hai ki 'resources/views' folder ke andar 'Head and foot' folder mein se footer.blade.php naam ki file ka saara code is jagah par daal do (load kar do).
+
+Summary (Saaransh)
+Aap ek aisa section bana rahe hain jismein:
+
+Ek container hai (content beech mein hai).
+
+Ek row (line) hai.
+
+Us row ke andar 3 col-md-4 (columns) hain.
+
+Har column ke andar ek card hai.
+
+Har card mein ek image, ek title, ek description aur ek button hai.

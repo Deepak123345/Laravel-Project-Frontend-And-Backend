@@ -1,0 +1,133 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* Isko ab hum space-between hi rakhenge */
+  align-items: center;
+  padding: 0;
+  background-color: #8f5703;
+  /* Yellowish-brown color */
+}
+
+/* Naya section jise hum center karna chahte hain */
+
+/* Search Bar Styles */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7a2121;
+  /* Example border color */
+  border-radius: 5px;
+  overflow: hidden;
+  /* To keep button inside border-radius */
+}
+
+.search-input {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+  /* Navbar background se match kare */
+  color: white;
+  /* Text color */
+}
+
+.search-input::placeholder {
+  color: #ccc;
+  /* Placeholder color */
+}
+
+.search-button {
+  background-color: #7a2121;
+  /* Button background */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #5d1a1a;
+  /* Darker on hover */
+}
+
+.header-logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  inline-size: 100px;
+  block-size: 20%;
+}
+
+.header-logo-section .brand-name {
+  font-size: 30px !important;
+  color: #000000;
+  font-weight: 900;
+  display: block;
+}
+
+.header-logo-section .brand-name a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-center-section {
+  display: flex;
+  gap: 20px;
+  /* Search bar, links, aur button ke beech ki jagah */
+  /* Remove auto margins so this section is not centered */
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+/* Existing .navbar ul styles (thoda adjust karna pad sakta hai agar flex container hai) */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  /* Important: remove default margin for ul */
+  padding: 0;
+  /* Important: remove default padding for ul */
+}
+/* Adjust .navbar li a styles if needed */
+.navbar li a {
+  text-decoration: none;
+  color: #ffffff;
+  /* White text for better visibility */
+  font-size: 1rem;
+  padding: 5px 0;
+  /* Thoda padding upar aur niche se */
+  position: relative;
+  transition: color 0.3s;
+}
+
+.Login_button{
+background-color: #8f5703; /* Apne hisab se color code dalo */
+    color: white;
+    border: 1px solid #8f5703;
+    border-radius: 30px;
+}
+
+.Login_button:hover {
+    color: black;
+    background-color: #e28c0a;
+    border-color: #e68e0a;
+}
+/* Adjust button styles if necessary, but it should mostly work */
+/* .button button {
+  background-color: #a0522d;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.1s;
+} */
