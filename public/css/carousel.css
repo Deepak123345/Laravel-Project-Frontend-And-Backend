@@ -1,0 +1,53 @@
+/* Boxed carousel styles (moved from inline in welcome.blade.php) */
+.hero-section {
+  background-color: #e9ecef;
+  padding-block-start: 0 !important;
+  margin-block-start: -5rem;
+}
+
+.hero-section .display-4 {
+  font-weight: 300;
+}
+
+
+.boxed-carousel {
+  margin: 1px 48px 18px;
+  padding: 18px;
+}
+/* background: #fff; */
+
+.boxed-carousel .carousel-img {
+  inline-size: 200%;
+  block-size: 450px;
+  object-fit: cover;
+}
+
+.boxed-carousel .carousel-caption {
+  max-inline-size: 60%;
+}
+
+@media (max-width: 768px) {
+  .boxed-carousel {
+    margin: 1px 12px 12px;
+    padding: 12px;
+  }
+
+  .boxed-carousel .carousel-img {
+    block-size: 220px;
+  }
+
+  .boxed-carousel .carousel-caption {
+    max-inline-size: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .boxed-carousel {
+    margin: 1px 8px 12px;
+    padding: 8px;
+  }
+
+  .boxed-carousel .carousel-img {
+    block-size: 180px;
+  }
+}
