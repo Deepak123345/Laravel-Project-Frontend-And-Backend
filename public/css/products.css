@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .featured-products {
   padding-block-start: 0px;
   margin-block-start: -2rem;
@@ -109,3 +110,116 @@
     font-size: 13px;
   }
 }
+=======
+.featured-products {
+  padding-block-start: 0px;
+  margin-block-start: -2rem;
+}
+
+.featured-products .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-products .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+.card-img-top {
+  block-size: 200px;
+  object-fit: cover;
+  /* Ensures images are not stretched */
+}
+
+.card-title {
+  color: #343a40;
+}
+
+/* ____________________________________________________ */
+
+.New-arrivals {
+  padding-block-start: 0px;
+  margin-block-start: -2rem;
+}
+
+.New-arrivals .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.New-arrivals .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+.card-img-top {
+  block-size: 200px;
+  object-fit: cover;
+  /* Ensures images are not stretched */
+}
+
+.card-title {
+  color: #343a40;
+}
+
+
+/* ------------------------------- */
+/* footer-blade.php css */
+.furniture-box {
+  /* background: #f0f0f0; */
+  padding: 25px 30px;
+  font-family: Arial, sans-serif;
+  border-radius: 4px;
+}
+
+/* Headings */
+.furniture-box h6 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-block-end: 5px;
+  color: #333;
+}
+
+/* Paragraph text */
+.furniture-box p {
+  margin-block-end: 15px;
+  line-height: 1.7;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Links style */
+.furniture-box a {
+  color: #333;
+  text-decoration: none;
+  padding: 0 3px;
+}
+
+.furniture-box a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+
+.black-line {
+  border-block-end: 1px solid #000;
+  inline-size: 100%;
+  margin: 10px 0;
+}
+
+/* Responsive i am using a @media */
+@media (max-width: 576px) {
+  .furniture-box {
+    padding: 20px;
+  }
+
+  .furniture-box h6 {
+    font-size: 15px;
+  }
+
+  .furniture-box p {
+    font-size: 13px;
+  }
+}
+>>>>>>> 945acca8eb7b255715e39fe5f8e6e3c2280ddfe3
